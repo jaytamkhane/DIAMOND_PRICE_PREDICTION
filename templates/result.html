@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #fceabb, #f8b500);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .result-container {
+        background-color: white;
+        padding: 40px 60px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        text-align: center;
+    }
+
+    .result-container h1 {
+        font-size: 28px;
+        color: #28a745;
+        margin-bottom: 20px;
+    }
+
+    .result-container p {
+        font-size: 24px;
+        color: #333;
+        margin: 10px 0;
+    }
+
+    .btn-home {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .btn-home:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .result-container {
+            background-color: white;
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .result-container h1 {
+            font-size: 28px;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        .result-container p {
+            font-size: 20px;
+            color: #555;
+        }
+
+        .btn-home {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn-home:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<html lang="en"></html>
+</head>
+<body>
+    <div class="result-container">
+        <h1>💎 Predicted Diamond Price</h1>
+        <p><strong>${{ final_result }}</strong></p>
+        <a href="{{ url_for('home_page') }}" class="btn-home">Back to Form</a>
+    </div>
+</body>
+</html>

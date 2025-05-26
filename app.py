@@ -33,5 +33,5 @@ def predict_result():
     return render_template('result.html', final_result=result)
 
 if __name__ == "__main__":
-    print("Server running at: http://127.0.0.1:8080")
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    port = int(os.environ.get("PORT", 8080))  # ← Uses Render's PORT or defaults to 8080
+    app.run(host='0.0.0.0', port=port, debug=False)  #

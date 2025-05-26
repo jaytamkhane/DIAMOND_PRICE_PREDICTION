@@ -8,7 +8,11 @@
 <body class="dark-theme">
   <div class="glass-container">
     <h2>💰 Diamond Price Prediction</h2>
+    {% if final_result %}
     <p class="result-text">Estimated Price: <strong>${{ final_result }}</strong></p>
+{% else %}
+    <p class="error">Error: Price prediction failed or value missing.</p>
+{% endif %}
     <a class="button" href="{{ url_for('show_form') }}">Predict Again</a>
     <a class="back-button" href="{{ url_for('home_page') }}">Home</a>
   </div>

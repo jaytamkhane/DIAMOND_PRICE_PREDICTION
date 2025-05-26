@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, render_template
 from src.pipelines.prediction_pipeline import PredictionPipeline, CustomData
 

@@ -103,7 +103,7 @@ Exploratory Data Analysis was performed to identify patterns, outliers, and rela
 
 Diamond_Price_Prediction
 ├── artifacts               # Contains model.pkl, preprocessor.pkl, train/test/raw\.csv
-├── dpp_venv                # Virtual environment (not pushed to GitHub)
+├── venv                    # Virtual environment (not pushed to GitHub)
 ├── logs/                   # Logging outputs
 ├── notebooks               # EDA & training notebooks
 │   ├── data
@@ -114,8 +114,8 @@ Diamond_Price_Prediction
 ├── src                     # Source code
 │   ├── components          # Data ingestion, transformation, training
 │   └── pipelines           # Training & prediction pipeline
-├── templates              # HTML templates (form, index)
-├── application.py          # Flask app entry point
+├── templates               # HTML templates (index, predict and result)
+├── app.py                  # Flask app entry point
 ├── Procfile                # Render deployment config
 ├── requirements.txt
 ├── setup.py
@@ -197,14 +197,14 @@ Clarity: VS2
 
 
 ## 🌐 Live Demo link - 
-[Diamond Price Predictor on Render](https://diamondpriceprediction-wdh4.onrender.com)
+[Diamond Price Predictor on Render](https://diamond-price-prediction-rrce.onrender.com)
 
 ### 📁 Files for Deployment
 
-* `application.py`: Flask entry point
+* `app.py`: Flask entry point
 * `templates/`: Contains index, predict and result HTML files
 * `model.pkl`, `preprocessor.pkl`: Trained model and scaler
-* `Procfile`: Contains `web: gunicorn application:app`
+* `Procfile`: Contains `web: gunicorn app:app`
 * `requirements.txt`: All Python packages
 
 
@@ -214,7 +214,7 @@ Clarity: VS2
 ### 📁 Step 1: Clone the Repository
 
  ```bash
-git clone https://github.com/swarajRB/Diamond_Price_Prediction_ML_Project
+git clone https://github.com/jaytamkhane/Diamond_Price_Prediction
 cd Diamond_Price_Prediction_ML_Project
 ```
 

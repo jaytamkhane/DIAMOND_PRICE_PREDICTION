@@ -39,7 +39,7 @@ Dataset Source Link :
 
 ### 🖼️ Dataset Preview
 
-![Dataset Head](screen_shots/dataset_preview.png)
+![Dataset Head](Pictures/dataset_preview.png)
 
 ---
 
@@ -56,7 +56,7 @@ Exploratory Data Analysis was performed to identify patterns, outliers, and rela
 
 *Visualizing the relationships between features.*
 <div align="center">
-    <img src="screen_shots/correlation_heatmap.png" width="350"/>
+    <img src="Pictures/correlation_heatmap.png" width="350"/>
 </div>
 
 ---
@@ -65,8 +65,8 @@ Exploratory Data Analysis was performed to identify patterns, outliers, and rela
 *Shows the distribution of diamond weight (carat) and price.*
 
 <div align="center">
-  <img src="screen_shots/price.png" width="350"/>
-  <img src="screen_shots/carat.png" width="350"/>
+  <img src="Pictures/price.png" width="350"/>
+  <img src="Pictures/carat.png" width="350"/>
 </div>
 
 ---
@@ -74,9 +74,9 @@ Exploratory Data Analysis was performed to identify patterns, outliers, and rela
 ### 🟨 Categorical Features Distribution
 
 <div align="center">
-  <img src="screen_shots/clarity.png" width="300"/>
-  <img src="screen_shots/color.png" width="300"/>
-  <img src="screen_shots/cut.png" width="300"/>
+  <img src="Pictures/clarity.png" width="300"/>
+  <img src="Pictures/color.png" width="300"/>
+  <img src="Pictures/cut.png" width="300"/>
 </div>
 
 ## 🧰 Tech Stack
@@ -93,7 +93,7 @@ Exploratory Data Analysis was performed to identify patterns, outliers, and rela
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 
 <details>
@@ -215,7 +215,7 @@ Clarity: VS2
 
  ```bash
 git clone https://github.com/jaytamkhane/Diamond_Price_Prediction
-cd Diamond_Price_Prediction_ML_Project
+cd Diamond_Price_Prediction
 ```
 
 ### 🐍 Step 2: Create a Virtual Environment
@@ -256,56 +256,10 @@ python src/pipelines/training_pipeline.py
 python app.py
 ```
 ---
----
 
-## 📸 Screenshots Summary
+## Developed by :
 
-
-**🏠 Home Page**
-*Landing page of the web application.*
-
-<div align="center">
-    <img src="screen_shots/homepage.png" width="700"/>
-</div>
-
----
----
-
-**📝 Prediction Form**
-*User form for entering diamond features to get price prediction.*
-
-<div align="center">
-    <img src="screen_shots/prediction_form.png" width="700"/>
-</div>
-
----
----
-
-**📈 Prediction Result**
-*Predicted diamond price displayed after form submission.*
-
-<div align="center">
-    <img src="screen_shots/prediction_result.png" width="700"/>
-</div>
-
----
----
-
-**✅ Render Deployment Logs**
-*Successful deployment logs on Render.com*
-<div align="center">
-    <img src="screen_shots/render_success.png" width="700"/>
-</div>
-
----
----
-
-
-
-## Developed by -
-
-**jay Tamkhane**-
-*Aspiring Data Analytics | ML & Data Science Enthusiast*
+**jay Tamkhane**
 
 
 

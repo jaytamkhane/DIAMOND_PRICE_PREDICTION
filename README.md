@@ -268,7 +268,7 @@ python app.py
 
 If you have any questions or would like to collaborate, feel free to reach out to me:
 
-- LinkedIn Profile - 
+- LinkedIn Profile - https://www.linkedin.com/in/jay-tamkhane
 
 - Gmail : jaytamkhane161@gmail.com
 ---
